@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kryadov/java-main-class-database/src/main/resources/java-main-class.schema.json",
+  "title": "Java main class database",
+  "description": "Java main class database JSON schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "Product name",
+        "type": "string"
+      },
+      "main-class": {
+        "description": "Main class",
+        "type": "string"
+      }
+    },
+    "required": [
+      "main-class",
+      "name"
+    ],
+    "uniqueItems": true
+  }
+}

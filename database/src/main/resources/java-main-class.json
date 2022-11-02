@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Apache Tomcat",
+    "main-class": "org.apache.catalina.startup.Bootstrap"
+  }
+]
